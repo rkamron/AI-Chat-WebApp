@@ -80,10 +80,10 @@ export const Loader = () => {
 
   return (
     <div className="h-full flex flex-col gap-y-4 items-center justify-center">
-      <div className="w-10 h-10 reliative animate-bounce">
+      <div className="w-10 h-10 reliative animate-spin">
         <Image alt="logo" fill src="/logo.png" />
       </div>
-      <p className="text-sm text-muted-foreground">The Muses are thinking...</p>
+      <p className="text-sm text-muted-foreground">The AI is thinking...</p>
       <div className="w-96 text-sm text-muted-foreground p-6 rounded-md shadow-md transition duration-500 mx-auto text-center bg-gradient-to-br from-purple-400 to-emerald-200">
         <p className="text-black font-bold text-lg mb-2">Did you know?</p>
         <p className="text-gray-800">{randomDidYouKnow}</p>
